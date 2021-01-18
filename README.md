@@ -1,5 +1,5 @@
 # Spring Boot Study
-**Plan**
+**My Plan**
 
 - Self-learns the overall technology of spring and the development of back-end services.
 - JPA Basic Structure Learning
@@ -7,4 +7,5 @@
 - Spring Data JPA - Learn spring data JPA based on functions required in practice.
 - Querydsl - Solves complex and dynamic query problems.
 
-**And then..**  planning to build a small web service.
+**And then..**  
+planning to build a small web service.
