@@ -8,4 +8,4 @@
 - Querydsl - Solves complex and dynamic query problems.
 
 **And then..**  
-planning to build a small web service.
+  planning to build a small web service.
