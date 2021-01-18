@@ -21,12 +21,14 @@ public class HelloControlller {
         return "hello-template";
     }
 
+    // ResponseBody 문자반환
     @GetMapping("hello-string")
     @ResponseBody
     public String helloString(@RequestParam("name") String name) {
         return "hello " + name;
     }
 
+    // ResponseBody 객체반환
     @GetMapping("hello-api")
     @ResponseBody
     public Hello helloApi(@RequestParam("name") String name) {
