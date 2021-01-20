@@ -17,7 +17,7 @@ public class HelloControlller {
 
     @GetMapping("hello-mvc")
     public String helloMvc(@RequestParam("name") String name, Model model) {
-        model.addAttribute("name", name);
+        model.addAttribute("name", name); // model을 받아 처리(필수)
         return "hello-template";
     }
 
@@ -38,6 +38,7 @@ public class HelloControlller {
     }
     static class Hello {
         private String name;
+
         public String getName() {
             return name;
         }
