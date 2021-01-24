@@ -1,12 +1,16 @@
 package hello.hellospring.repository;
 
 import hello.hellospring.domain.Member;
+import org.springframework.stereotype.Repository;
+import org.springframework.web.bind.annotation.ResponseBody;
+
 import java.util.*;
 /*
  동시성 문제가 고려되어 있지 X
  실무에서는 ConcurrentHashMap, AtomicLong 사용을 고려할 수 있다.
  */
 
+@Repository
 public class MemoryMemberRepository implements MemberRepository {
 
     private static Map<Long, Member> store = new HashMap<>();
