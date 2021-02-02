@@ -51,7 +51,7 @@ public class MemberService {
         memberRepository.findByName(member.getName())
                 // Null이면...
                 .ifPresent(m -> {
-                    throw new IllegalStateException("이미 존재하는 회원합니다.");
+                    throw new IllegalStateException("이미 존재하는 회원입니다.");
                 });
     }
 
