@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>쿠팡!</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="index.css"/>
+
+    <script>
+            function logTime(elem) {
+                return elem.setAttribute("data-load-time", window.performance && window.performance.now && window.performance.now());
+            }
+        </script>
+</head>
+
+<body>
+<div id ="uppermost">
+    <p>
+        <a href="/service/bookmark">즐겨찾기</a>
+        <a href="/service/market_join">입점신청</a>
+        <a href="/members/login">로그인</a>
+        <a href="/members/new">회원 가입</a>
+        <a href="/members">회원 목록</a>
+        <a href="/service/contact">고객센터</a>
+    </p>
+</div>
+
+<div id="top-searchbar">
+    <input type="text" placeholder="찾고 싶은 상품을 검색해보세요!">
+    <button>검색</button>
+</div>
+
+<div id="header1">
+    <p>
+        <a href="/service/rocket_delivery">로켓베송</a>
+        <a href="/service/rocket_fresh">로켓프레시</a>
+        <a href="/service/special">2021 설날</a>
+        <a href="/service/rocket_delivery_other">로켓직구</a>
+        <a href="/service/gold_box">골드박스</a>
+        <a href="/service/delivery">정기배송</a>
+        <a href="/service/fast_parcel">이벤트/쿠폰</a>
+        <a href="/service/fast_parcel">기획전</a>
+        <a href="/service/fast_parcel">여행/티켓</a>
+    </p>
+</div>
+</body>
+</html>
